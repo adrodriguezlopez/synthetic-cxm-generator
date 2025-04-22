@@ -1,0 +1,4 @@
+basic:
+  - email_received
+  - email_processed
+  - email_responded

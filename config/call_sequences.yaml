@@ -1,0 +1,16 @@
+standard:
+  - call_started
+  - call_active
+  - call_ended
+
+with_hold:
+  - call_started
+  - call_active
+  - call_hold
+  - call_active
+  - call_ended
+
+refused:
+  - call_started
+  - call_refused
+  - call_ended

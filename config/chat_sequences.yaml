@@ -1,0 +1,10 @@
+standard:
+  - chat_started
+  - chat_message
+  - chat_ended
+
+escalated:
+  - chat_started
+  - chat_message
+  - chat_escalated
+  - chat_ended
