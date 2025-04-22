@@ -6,4 +6,3 @@ class AbstractEventContext(ABC):
         """
         Return a dictionary with all fields available for event generation.
         """
-        pass

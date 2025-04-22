@@ -1,0 +1,9 @@
+# Herramientas de desarrollo y limpieza
+autoflake>=2.2
+vulture>=2.7
+pytest>=7.4
+
+# Puedes agregar aquí otras herramientas útiles como:
+# black        → formateador de código
+# flake8       → linter
+# pre-commit   → hooks de git automáticos

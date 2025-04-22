@@ -1,4 +1,3 @@
-import yaml
 from interaction_templates.generators.call.base_call_generator import BaseCallFieldGenerator
 from interaction_templates.utils.config_loader import load_event_definitions, load_base_event_fields
 
