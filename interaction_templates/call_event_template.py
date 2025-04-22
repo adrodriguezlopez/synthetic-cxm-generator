@@ -1,5 +1,4 @@
 import yaml
-from schemas.base_event_schema import BASE_EVENT_FIELDS
 from interaction_templates.generators.call.base_call_generator import BaseCallFieldGenerator
 from interaction_templates.utils.config_loader import load_event_definitions, load_base_event_fields
 
