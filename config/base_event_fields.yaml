@@ -1,0 +1,4 @@
+interaction_id: str
+timestamp: datetime
+channel: str
+event_type: str

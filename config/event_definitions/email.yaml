@@ -1,0 +1,13 @@
+email_received:
+  custom_fields:
+    sender_id: str
+    subject_length: int
+
+email_processed:
+  custom_fields:
+    processing_time_ms: int
+
+email_responded:
+  custom_fields:
+    response_time_minutes: int
+    response_sentiment: float

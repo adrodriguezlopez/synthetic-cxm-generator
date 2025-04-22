@@ -1,0 +1,17 @@
+chat_started:
+  custom_fields:
+    agent_id: str
+    customer_id: str
+
+chat_message:
+  custom_fields:
+    message_length: int
+    sentiment_score: float
+
+chat_escalated:
+  custom_fields:
+    reason: str
+
+chat_ended:
+  custom_fields:
+    end_reason: str

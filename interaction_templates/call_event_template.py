@@ -1,10 +1,12 @@
 import yaml
 from schemas.base_event_schema import BASE_EVENT_FIELDS
 from interaction_templates.generators.call.base_call_generator import BaseCallFieldGenerator
+from interaction_templates.utils.config_loader import load_event_definitions, load_base_event_fields
+
 
 #load event definitions from Yaml config
-with open("config/event_definitions.yaml", "r") as f:
-    EVENT_DEFINITIONS = yaml.safe_load(f)
+EVENT_DEFINITIONS = load_event_definitions()
+BASE_EVENT_FIELDS = load_base_event_fields()
 
 #use the base call field generator
 field_generator = BaseCallFieldGenerator()

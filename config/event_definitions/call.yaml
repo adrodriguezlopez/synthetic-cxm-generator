@@ -1,0 +1,20 @@
+call_started:
+  custom_fields:
+    agent_id: str
+    customer_id: str
+
+call_active:
+  custom_fields:
+    duration_seconds: int
+
+call_hold:
+  custom_fields:
+    hold_reason: str
+
+call_refused:
+  custom_fields:
+    refused_reason: str
+
+call_ended:
+  custom_fields:
+    end_reason: str
