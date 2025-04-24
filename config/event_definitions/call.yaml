@@ -18,3 +18,9 @@ call_refused:
 call_ended:
   custom_fields:
     end_reason: str
+
+call_transfer:
+  custom_fields:
+    agent_id: str
+    customer_id: str
+    transfer_target: str

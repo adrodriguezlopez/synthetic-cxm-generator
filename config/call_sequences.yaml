@@ -14,3 +14,9 @@ refused:
   - call_started
   - call_refused
   - call_ended
+
+call_transfer:
+  - call_started
+  - call_active
+  - call_transfer
+  - call_ended

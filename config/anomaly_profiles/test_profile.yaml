@@ -6,7 +6,15 @@ call_active:
       probability: 1.0
       fields:
         timestamp:
-          offset_minutes: 60
+          offset_minutes: 30
+
+    - type: extreme_value
+      category: event
+      cxm: CXM1
+      probability: 1.0
+      fields:
+        duration_seconds:
+          multiplier: 10
 
 call_transfer:
   anomalies:

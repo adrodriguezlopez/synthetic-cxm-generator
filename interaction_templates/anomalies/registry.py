@@ -1,4 +1,5 @@
 from interaction_templates.anomalies.event_level.timestamp_jump import EventTimestampJumpAnomaly
+from interaction_templates.anomalies.event_level.extreme_value import EventExtremeValueAnomaly
 from interaction_templates.anomalies.interaction_level.missing_event import InteractionMissingEventAnomaly
 from interaction_templates.anomalies.dataset_level.duplicate_interaction import DatasetDuplicateInteractionAnomaly
 
@@ -6,6 +7,7 @@ from interaction_templates.anomalies.dataset_level.duplicate_interaction import 
 #registry that maps(type, category) -> class
 ANOMALY_REGISTRY = {
     ("timestamp_jump", "event"): EventTimestampJumpAnomaly,
+    ("extreme_value","event"): EventExtremeValueAnomaly,
     ("missing_event", "interaction"): InteractionMissingEventAnomaly,
     ("duplicate_interaction", "dataset"): DatasetDuplicateInteractionAnomaly
 }
