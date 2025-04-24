@@ -1,0 +1,23 @@
+call_active:
+  anomalies:
+    - type: timestamp_jump
+      category: event
+      cxm: CXM1
+      probability: 1.0
+      fields:
+        timestamp:
+          offset_minutes: 60
+
+call_transfer:
+  anomalies:
+    - type: missing_event
+      category: interaction
+      cxm: CXM1
+      probability: 1.0
+
+__dataset__:
+  anomalies:
+    - type: duplicate_interaction
+      category: dataset
+      cxm: CXM1
+      probability: 1.0
