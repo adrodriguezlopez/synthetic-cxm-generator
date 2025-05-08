@@ -3,3 +3,4 @@ numpy
 pyyaml
 faker
 scikit-learn
+boto3
